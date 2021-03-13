@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCardActivity">
+
+    <EditText
+        android:id="@+id/questionInput"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:hint="Enter Question Here"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true">
+    </EditText>
+
+    <EditText
+        android:layout_below="@id/questionInput"
+        android:id="@+id/answerInput"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:hint="Enter Answer Here"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="25dp">
+    </EditText>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:maxImageSize="60dp"
+        app:srcCompat="@android:drawable/ic_notification_clear_all" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/stat_sys_download"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
