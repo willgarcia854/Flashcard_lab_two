@@ -38,5 +38,15 @@
     android:tint="@color/white"
     app:srcCompat="@android:drawable/ic_menu_add" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/nextRightButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    app:maxImageSize="60dp"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true"
+    app:srcCompat="@android:drawable/ic_media_next" />
+
 
 </RelativeLayout>
