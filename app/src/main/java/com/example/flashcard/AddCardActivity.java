@@ -18,15 +18,13 @@ public class AddCardActivity extends AppCompatActivity {
         ImageView cancelCardButton =  findViewById(R.id.floatingCancelButton);
         ImageView addInputButton = findViewById(R.id.floatingSaveButton);
 
-        String question = getIntent().getStringExtra("question");
-        String answer = getIntent().getStringExtra("answer");
-
-        EditText newQuestion = findViewById(R.id.questionInput);
-        newQuestion.setText(question);
-        EditText newAnswer = findViewById(R.id.answerInput);
-        newAnswer.setText(answer);
-
-
+//        String question = getIntent().getStringExtra("question");
+//        String answer = getIntent().getStringExtra("answer");
+//
+//        EditText newQuestion = findViewById(R.id.questionInput);
+//        newQuestion.setText(question);
+//        EditText newAnswer = findViewById(R.id.answerInput);
+//        newAnswer.setText(answer);
 
 
         cancelCardButton.setOnClickListener(new View.OnClickListener(){

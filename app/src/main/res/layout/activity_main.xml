@@ -5,12 +5,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/teal"
     tools:context=".MainActivity">
 
     <TextView
     android:layout_width="match_parent"
     android:layout_height="200dp"
     android:id="@+id/flashcard_question"
+    android:background="@drawable/card_background"
+    android:elevation="5dp"
+    android:textColor="@color/eggshell_green"
+    android:textStyle="bold"
     android:text="What is the most widely spoken language in the world?"
     android:textSize="40sp"
     android:layout_centerHorizontal="true"
@@ -20,12 +25,27 @@
     <TextView
     android:layout_width="match_parent"
     android:layout_height="200dp"
+    android:textColor="@color/eggshell_green"
+    android:textStyle="bold"
     android:id="@+id/flashcard_answer"
     android:text="English"
     android:textSize="40sp"
     android:layout_centerHorizontal="true"
     android:gravity="center"
     android:visibility="invisible"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id = "@+id/timer"
+    android:textColor="@color/eggshell_green"
+    android:textStyle="bold"
+    android:textSize="40sp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    android:visibility="invisible"
+    android:text="16"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
     android:id="@+id/floatingActionButton"

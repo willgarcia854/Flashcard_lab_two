@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/teal"
     android:layout_height="match_parent"
     tools:context=".AddCardActivity">
 
@@ -11,6 +12,8 @@
         android:id="@+id/questionInput"
         android:layout_width="300dp"
         android:layout_height="100dp"
+        android:textColor="@color/eggshell_green"
+        android:textStyle="bold"
         android:hint="Enter Question Here"
         android:textSize="25dp"
         android:textAlignment="center"
@@ -20,6 +23,8 @@
     <EditText
         android:layout_below="@id/questionInput"
         android:id="@+id/answerInput"
+        android:textColor="@color/eggshell_green"
+        android:textStyle="bold"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:hint="Enter Answer Here"
